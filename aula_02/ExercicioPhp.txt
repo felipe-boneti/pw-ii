@@ -1,0 +1,2 @@
+Crie um projeto chamado salario. Atribua o valor João para uma variável nome, 48 para a variável idade e
+4000 para a variável salário. João teve um aumento de 200 reais. Calcule o valor do novo salário e exiba os dados da seguinte forma: Nome: valorVariavel Idade: valorVariavel Salário: valorVariavel
