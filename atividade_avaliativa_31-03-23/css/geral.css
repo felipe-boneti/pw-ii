@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+}
+
+img{
+    width: 700px;
+    margin: 50px auto;
+    border-radius: 10%;
+    transition: 0.2s;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+input[type=text], textarea{
+    width: 300px;
+    font-size: 12pt;
+}
+
+textarea{
+    height: 100px;
+    resize: none;
+}
+
+.menu{
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.bt_menu{
+    padding: 5px 15px;
+    font-size: 14pt;
+    background-color: rgb(0, 100, 200);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: auto 10px;
+    transition: 0.2s;
+}
+
+.bt_form{
+    padding: 5px;
+    font-size: 12pt;
+    background-color: rgb(0, 50, 255);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 10px auto auto;
+    transition: 0.2s;
+}
+
+.bt_menu:hover, .bt_form:hover{
+    transform: scale(1.2);
+}
+
+.nomes_dupla{
+    font-size: 20pt;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.nomes_dupla b{
+    font-size: 14pt;
+    color: rgb(0, 100, 200);;
+}
+
+.titulo{
+    font-size: 20pt;
+    color: rgb(0, 100, 200);
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.texto{
+    font-size: 14pt;
+    width: 700px;
+    margin: 10px auto auto;
+}
